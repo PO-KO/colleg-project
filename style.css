@@ -297,3 +297,77 @@ aside {
   top: -6px;
   right: 0;
 }
+
+.contact {
+  background-color: hsl(197, 100%, 5%);
+  padding: 50px;
+  color: hsl(210, 17%, 98%);
+}
+
+.contact-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact .socials {
+  width: 40%;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contact form input {
+  background-color: hsl(210, 17%, 98%);
+  border: none;
+  color: hsl(197, 100%, 5%);
+  padding: 10px 7px;
+  margin-bottom: 18px;
+  border-radius: 2px;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+  outline: none;
+}
+
+.contact form textarea {
+  padding: 7px;
+  height: 150px;
+  resize: none;
+  border-radius: 2px;
+  border: none;
+}
+
+.contact form button {
+  width: fit-content;
+  background-color: hsl(210, 17%, 98%);
+  padding: 7px 20px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: auto;
+  border: none;
+  font-weight: bold;
+  border-radius: 2px;
+  transition: 0.2s;
+}
+
+.contact form button:hover {
+  background-color: hsl(210, 2%, 84%);
+}
+
+.contact .social {
+  margin-bottom: 10px;
+}
+
+.contact .social a {
+  color: hsl(210, 17%, 98%);
+  margin-left: 10px;
+}
+
+.contact .social:hover a {
+  border-bottom: 1px solid hsl(210, 17%, 98%);
+}
